@@ -14,8 +14,6 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        // ដាក់ Gemini API Key នៅក្នុងឯកសារ local.properties (កុំដាក់ត្រង់ code)
-        // GEMINI_API_KEY=your_key_here
         buildConfigField(
             "String",
             "GEMINI_API_KEY",
@@ -52,7 +50,6 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
 
-    // HTTP client សម្រាប់ហៅ Gemini REST API
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("org.json:json:20240303")
 }

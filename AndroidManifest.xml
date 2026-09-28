@@ -19,7 +19,6 @@
             </intent-filter>
         </activity>
 
-        <!-- FileProvider ត្រូវការសម្រាប់ចែក file .srt ចេញ (share) -->
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
